@@ -1,0 +1,38 @@
+{
+  "os": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+  "python": "CPython 3.10.13",
+  "startedAt": "2026-04-23T06:36:31.536940Z",
+  "args": [
+    "--attack-model",
+    "kimi",
+    "--target-model",
+    "gpt-3.5-turbo-1106",
+    "--judge-model",
+    "jailbreakbench",
+    "--dataset",
+    "jbb"
+  ],
+  "program": "/app/main.py",
+  "codePath": "main.py",
+  "codePathLocal": "main.py",
+  "git": {
+    "remote": "https://github.com/patrickrchao/JailbreakingLLMs.git",
+    "commit": "6379ef705a0fc745530f7d895963510c021b496a"
+  },
+  "email": "imperialj@usf.edu",
+  "root": "/app",
+  "host": "4c551a3b9f91",
+  "executable": "/opt/conda/bin/python3",
+  "cpu_count": 16,
+  "cpu_count_logical": 32,
+  "disk": {
+    "/": {
+      "total": "1081101176832",
+      "used": "67706863616"
+    }
+  },
+  "memory": {
+    "total": "16584413184"
+  },
+  "writerId": "7fl9fpjlbwksv8fwxbi7y3ppftgv393v"
+}
