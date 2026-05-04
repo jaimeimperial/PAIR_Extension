@@ -3,9 +3,10 @@
 ## Getting Started
 We provide a Dockerfile in `docker/Dockerfile` that can be used to easily set up the environment needed to run all code in this repository.
 
-For your desired black box models, make sure you have the API key stored in `OPENAI_API_KEY`, `ANTHROPIC_API_KEY`, `GOOGLE_API_KEY` respectively. For example,
+For your desired black box models, make sure you have the API key stored in `OPENAI_API_KEY` and `TOGETHER_API_KEY` respectively. For example,
 ```
 export OPENAI_API_KEY=[YOUR_API_KEY_HERE]
+export TOGETHER_API_KEY=[YOUR_API_KEY_HERE]
 ```
 
 Run `wandb login` to login to your WandB account beforehand to log your data.
